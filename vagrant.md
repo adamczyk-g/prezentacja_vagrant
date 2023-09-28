@@ -36,7 +36,7 @@ Umożliwia tworzenie maszyn wirtualnych na podstawie pliku konfiguracyjnego. Sam
 # Do czego można wykorzystać Vagrant
 **Świetnie nadaje się do tworzenia, zarządzania i dystrybucji przenośnych środowisk developerskich.**
 * Używanie kilku środowisk developerskich na jednej maszynie fizycznej tworzy wiele problemów. Zamiast instalować wszystkie aplikacje na jednej maszynie fizycznej, lepiej użyć maszyn wirtualnych. Vagrant ułatwia  konfigurowanie środowisk złożonych z wielu maszyn wirtualnych 
-* Raz stworzoną konfigurację maszyn można łatwo uruchomić na dowolnej maszynie fizycznej na której jest zainstalowany Vagrant
+* Raz stworzoną konfigurację maszyn wirtualnych można łatwo uruchomić na dowolnej maszynie fizycznej na której jest zainstalowany Vagrant
 
 ---
 # Dlaczego Vagrant
