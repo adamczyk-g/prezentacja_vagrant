@@ -1,5 +1,7 @@
 ---
 
+#<!-- 
+# Directives
 title: Vagrant
 author: Grzegorz Adamczyk
 theme: default
@@ -7,9 +9,9 @@ style: |
   section { justify-content: start; } 
   p { font-size: 1em; } 
   img[alt~="center"] { display: block; margin: 0 auto;}
-
+  
+#-->
 marp: true
-
 ---
 
 ![](img/vagrant.png "title")
