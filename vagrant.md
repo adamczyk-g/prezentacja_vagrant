@@ -1,7 +1,6 @@
----
+--- 
 
-#<!-- 
-# Directives
+marp: true
 title: Vagrant
 author: Grzegorz Adamczyk
 theme: default
@@ -9,9 +8,8 @@ style: |
   section { justify-content: start; } 
   p { font-size: 1em; } 
   img[alt~="center"] { display: block; margin: 0 auto;}
-  
-#-->
-marp: true
+transition: fade
+
 ---
 
 ![](img/vagrant.png "title")
@@ -19,11 +17,14 @@ marp: true
 autor: Grzegorz Adamczyk
 
 ---
+
 # Czym jest Vagrant?
 
 **Vagrant to narzędzie, które pozwala zautomatyzować zarządzanie środowiskami wirtualnymi.**
 
-Umożliwia tworzenie maszyn wirtualnych na podstawie pliku konfiguracyjnego. Sam nie dostarcza mechanizmów wirtualizacyjnych, wymaga do działania zewnętrznych dostawców (providerów). Domyślnym i najpopulrniejszym jest VirtualBox.
+* Umożliwia tworzenie maszyn wirtualnych na podstawie pliku konfiguracyjnego. 
+* Sam nie dostarcza mechanizmów wirtualizacyjnych, wymaga do działania zewnętrznych dostawców (providerów).
+* Domyślnym i najpopulrniejszym jest VirtualBox.
 
 ---
 # Do czego można wykorzystać Vagrant
