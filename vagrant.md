@@ -3,23 +3,14 @@
 title: Vagrant
 author: Grzegorz Adamczyk
 theme: default
-class: 
-
+style: |
+  section { justify-content: start; } 
+  p { font-size: 1em; } 
+  img[alt~="center"] { display: block; margin: 0 auto;}
 
 marp: true
 
 ---
-<style>
-section { justify-content: start; }
-p {
-  font-size: 1em;
-}
-
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style>
 
 ![](img/vagrant.png "title")
 # Vagrant w 10 minut
